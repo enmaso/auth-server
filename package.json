@@ -1,0 +1,45 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "description": "Nodejs Basic Authentication Server",
+  "main": "auth.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.1",
+    "connect-redis": "3.3.0",
+    "dotenv": "4.0.0",
+    "express": "4.15.4",
+    "express-session": "1.15.5",
+    "mongoose": "4.11.12",
+    "morgan": "1.8.2",
+    "nodemon": "1.12.1",
+    "passport": "0.4.0",
+    "passport-box": "2.1.0",
+    "redis": "2.8.0",
+    "standard": "10.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enmaso/auth-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "authentication",
+    "express",
+    "passport"
+  ],
+  "author": "Enmaso, Inc.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/enmaso/auth-server/issues"
+  },
+  "homepage": "https://github.com/enmaso/auth-server#readme"
+}
